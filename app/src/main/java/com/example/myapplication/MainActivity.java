@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
         });
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
-
-
-
             public void onClick(View view) {
                 final AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("請選擇功能");
